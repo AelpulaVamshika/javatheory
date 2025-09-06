@@ -1,0 +1,24 @@
+class A {
+    private void display() {
+        System.out.println("Hello from A");
+    }
+
+    void callDisplay() {
+        display();
+    }
+}
+
+class B extends A {
+    void show() {
+        System.out.println("Hello from B");
+    }
+}
+
+public class PrivateMethodExample {
+    public static void main(String[] args) {
+        A obj = new A();
+        obj.callDisplay(); 
+        B obj2 = new B();
+        obj2.show();
+    }
+}
