@@ -1,0 +1,63 @@
+//String Length
+public class StringLength {
+    public static void main(String[] args) {
+        String s = "Hello World";
+        System.out.println(s.length());
+    }
+}
+
+//Concatenation
+public class StringConcat {
+    public static void main(String[] args) {
+        String a = "Hello";
+        String b = "World";
+        System.out.println(a + " " + b);
+        System.out.println(a.concat(b));
+    }
+}
+
+// Character at Position
+public class StringCharAt {
+    public static void main(String[] args) {
+        String s = "Java";
+        System.out.println(s.charAt(2));
+    }
+}
+
+//Substring
+public class StringSubstring {
+    public static void main(String[] args) {
+        String s = "Programming";
+        System.out.println(s.substring(0, 6));
+    }
+}
+
+//Comparison
+public class StringCompare {
+    public static void main(String[] args) {
+        String s1 = "Java";
+        String s2 = "java";
+        System.out.println(s1.equals(s2));
+        System.out.println(s1.equalsIgnoreCase(s2));
+    }
+}
+
+//Changing Case
+public class StringCase {
+    public static void main(String[] args) {
+        String s = "Hello World";
+        System.out.println(s.toUpperCase());
+        System.out.println(s.toLowerCase());
+    }
+}
+
+//Replace
+public class StringReplace {
+    public static void main(String[] args) {
+        String s = "Java is fun";
+        System.out.println(s.replace("fun", "powerful"));
+    }
+}
+
+
+👉 Do you want me to prepare one single program that demonstrates all string operations together instead of separate files?
